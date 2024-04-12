@@ -1,0 +1,44 @@
+
+.cart{
+  margin: auto;
+  background: #ddd;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  .submit{
+    margin-top: 10px;
+  }
+  .input-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  button{
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 5px;
+    height: 30px;
+    background: #333;
+    color: #fff;
+    transition: .3s;
+    &:hover{
+      cursor: pointer;
+      background: #000;
+      transition: .3s;
+    }
+  }
+  input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    height: 30px;
+    width: 65%;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+  }
+}
+}
+
+

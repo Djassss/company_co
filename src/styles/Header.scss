@@ -1,0 +1,38 @@
+header{
+  background: linear-gradient(to left, #333, #ddd);
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  div{
+    display: flex;
+    align-items: center;
+    li{
+      list-style: none;
+      a{
+        margin: 0 20px;
+        font-size: 25px;
+        color: #ddd;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 520px) {
+  header{
+   padding: 30px;
+   h1{
+    font-size: 28px;
+   }
+   div{
+    align-items: center;
+    li{
+      a{
+        margin: 0 10px;
+        font-size: 20px;
+      }
+    }
+  }
+  }
+}
